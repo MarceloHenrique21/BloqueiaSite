@@ -1,0 +1,10 @@
+{
+
+    "name": "Protótipo -- Bloqueador de conteudo sensivel", 
+    "description": "Extensao que bloqueia conteudos sensiveis para crianças e as redireciona para a pagina principal do google",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting", "favicon"],
+    "action": {
+        "default_popup": "index.html" }
+}
